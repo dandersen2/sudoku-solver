@@ -5,13 +5,13 @@ This is a sudoku solving algorithm using classes to represent the elements of a 
 
 Puzzles are entered as strings as the argument for a new instance of the Sudoku class. 16 boards are listed in sudoku_puzzles.txt. This sudoku solver can successfully solve all 16. These boards are of steadily increasing difficulty from lines 1-14, 14 being the hardest because it has the most blank spaces(represented by a dash). Line 15 is an empty board. Line 16 is the [World's Hardest Sudoku Puzzle](http://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html). The puzzle as well as it's solution can be seen here:
 
-[Hardest Sudoku Unsolved:]()
+[Hardest Sudoku Unsolved:](https://github.com/dandersen2/sudoku-solver/blob/master/worlds-hardest-sudoku.jpg)
 
-[Hardest Sudoku Solved(spoiler alert!):]()
+[Hardest Sudoku Solved(spoiler alert!):](https://github.com/dandersen2/sudoku-solver/blob/master/worlds-hardest-sudoku-solution.jpg)
 
 This Solver solves puzzle #16 in 1 minute 15 seconds on my computer. Some improvements that could cut down on this time would be to implement more helper methods to deduce even more of the board in the initial solving process before the program begins to guess. Every cell that can be filled deductively will reduce the solve time since most of this time is spent guessing and back-tracing when an incorrect guess is made.
 
-This [project](https://github.com/nyc-chorus-frogs-2016/sudoku-challenge) was initially attempted as a group effort for phase-1 of [Dev Bootcamp](devbootcamp.com) but I did not manage to solve all 16 of the puzzles until later.
+This [project](https://github.com/nyc-chorus-frogs-2016/sudoku-challenge) was initially attempted as a group effort for phase-1 of [Dev Bootcamp](http://devbootcamp.com/) but I did not manage to solve all 16 of the puzzles until later after continuing tobuild on the methods my group had created and adding the recursive solve method. I later realized that the simplest solution is probably to represent the boards and cells as strings and manipulate them as strings, however we had already built out all of out initial methods using classes so I continued in this direction.
 
 ###Try it out!:
 #####Can't solve that puzzle? Use the solver and get some help.
