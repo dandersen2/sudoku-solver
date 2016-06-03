@@ -7,11 +7,11 @@ Puzzles are entered as strings as the argument for a new instance of the Sudoku 
 
 [Hardest Sudoku Unsolved:](https://github.com/dandersen2/sudoku-solver/blob/master/worlds-hardest-sudoku.jpg)
 
-[Hardest Sudoku Solved(spoiler alert!):](https://github.com/dandersen2/sudoku-solver/blob/master/worlds-hardest-sudoku-solution.jpg)
+[Hardest Sudoku Solved(spoiler alert):](https://github.com/dandersen2/sudoku-solver/blob/master/worlds-hardest-sudoku-solution.jpg)
 
 This Solver solves puzzle #16 in 1 minute 15 seconds on my computer. Some improvements that could cut down on this time would be to implement more helper methods to deduce even more of the board in the initial solving process before the program begins to guess. Every cell that can be filled deductively will reduce the solve time since most of this time is spent guessing and back-tracing when an incorrect guess is made.
 
-This [project](https://github.com/nyc-chorus-frogs-2016/sudoku-challenge) was initially attempted as a group effort for phase-1 of [Dev Bootcamp](http://devbootcamp.com/) but I did not manage to solve all 16 of the puzzles until later after continuing tobuild on the methods my group had created and adding the recursive solve method. I later realized that the simplest solution is probably to represent the boards and cells as strings and manipulate them as strings, however we had already built out all of out initial methods using classes so I continued in this direction.
+This [project](https://github.com/nyc-chorus-frogs-2016/sudoku-challenge) was initially attempted as a group effort for phase-1 of [Dev Bootcamp](http://devbootcamp.com/) but I did not manage to solve all 16 of the puzzles until later after continuing to build on the methods my group had created and adding the recursive solve method. I later realized that the simplest solution is probably to represent the boards and cells as strings and manipulate them as strings, however we had already built out all of out initial methods using classes so I continued in this direction.
 
 ###Try it out!:
 #####Can't solve that puzzle? Use the solver and get some help.
